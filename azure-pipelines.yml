@@ -16,7 +16,7 @@ steps:
       imageToDeploy : 'mcr.microsoft.com/azuredocs/containerapps-helloworld:latest'
       containerAppName: 'dsfbefgerbt'
       resourceGroup: 'ContainerAppTest'
-      imageToDeploy: 'myregistry.azurecr.io/my-container-app:$(Build.BuildId)'
+     # imageToDeploy: 'myregistry.azurecr.io/my-container-app:$(Build.BuildId)'
 
 # variables:
 #   imageName: 'pipelines-javascript-docker'
